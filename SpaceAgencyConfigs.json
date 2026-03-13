@@ -7,6 +7,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Basic"
+        },
+        {
+            "name": "Aerospace Pioneers Association",
+            "owner": "QMSP",
+            "type": "Government",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Basic"
         }
     ]
 }
