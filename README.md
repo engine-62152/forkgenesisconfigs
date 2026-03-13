@@ -6,9 +6,11 @@ Contains the configs for New Genesis (season 2 of the 1.6 rp)
 Forum thread: [Placeholder](https://jmnet.one/sfs/forum/) 
 
 Discord Server: [New Genisis](https://discord.gg/ZnzxsBcbhJ)  
+
 Website: placeholder
 
 **Old links**
+
 Season 1 forum thread: [1.6 roleplay](https://jmnet.one/sfs/forum/index.php?threads/1-6-roleplay.16954/)   
 Season 1 website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 
