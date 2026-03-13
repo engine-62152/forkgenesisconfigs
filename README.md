@@ -13,6 +13,7 @@ Website: placeholder
 
 Season 1 forum thread: [1.6 roleplay](https://jmnet.one/sfs/forum/index.php?threads/1-6-roleplay.16954/)   
 Season 1 website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
+Season configs: [SFS 1.6 Roleplay Configs](https://github.com/RoshanGamer7791/SFS1.6RoleplayConfigs)
 
 ## Credits
 * ssdcat
