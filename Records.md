@@ -1,5 +1,10 @@
 # List of missions:
 THis is used to store records of notable missions, e.g. first crewed orbit of the moon.
+
+# General
+First launch:                 
+First orbit:       
+
 # Earth:
 
 ### Crewed:
