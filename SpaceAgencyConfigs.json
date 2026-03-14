@@ -63,6 +63,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Basic"
+        },
+        {
+            "name": "IASD Joint Venture",
+            "owner": "AaroahanTheAscender",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Basic"
         }
     ]
 }
