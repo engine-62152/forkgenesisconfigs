@@ -23,6 +23,10 @@
         {
           "event": "First failed launch",
           "who": "Untitled Aersopace"
+        },
+        {
+          "event": "First Staged Rocket",
+          "who": "Nuclide Technologies"
         }
     ]
 }
