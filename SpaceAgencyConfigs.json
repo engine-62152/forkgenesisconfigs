@@ -17,6 +17,14 @@
             "comms": "Basic"
         },
         {
+            "name": "Roshan Aerospace and Space Agency (RASA)",
+            "owner": "Roshan",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Basic"
+        },
+        {
             "name": "Zeus Space Program",
             "owner": "Asier_Diamond",
             "type": "Government",
