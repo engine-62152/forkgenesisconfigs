@@ -19,6 +19,10 @@
         {
           "event": "First RASA Launch | Suborbital Test Flight",
           "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+          "event": "First failed launch",
+          "who": "Untitled Aersopace"
         }
     ]
 }
