@@ -87,6 +87,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Basic"
+        },
+        {
+            "name": "HB Aerospace",
+            "owner": "RocketNerd2026",
+            "type":"Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Basic"
         }
     ]
 }
