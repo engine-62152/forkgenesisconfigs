@@ -9,20 +9,10 @@ bg2val = tk.StringVar(value="gray12")
 fgval = tk.StringVar(value="white")
 upvar = tk.StringVar()
 
-print("1: Black Mode\n2: Normal Theme\n3: Light Mode")
-themeinput = input("Input your choice: ")
-if themeinput == "1":
-    bgval.set("black")
-    bg2val.set("gray5")
-    fgval.set("white")
-if themeinput == "2":
-    bgval.set("gray7")
-    bg2val.set("gray12")
-    fgval.set("white")
-if themeinput == "3":
-    bgval.set("white")
-    bg2val.set("gray75")
-    fgval.set("black")
+with open("milestones.txt", "a+") as rm:
+    rm.seek(0)
+    data = rm.read().strip()
+print(data)
 
 mainframe = tk.Frame(root, bg=bgval.get(), width=1200, height=800)
 mainframe.grid_propagate(False)
@@ -92,13 +82,30 @@ frame1.grid(row=2, column=0)
 frame1btn = tk.Button(mainframe, bg=bgval.get(), fg=fgval.get(), font=("Segoe UI", 20, "bold"), text="Page 1", command=lambda: switchpage(frame1))
 frame1btn.grid(row=1, column=0, sticky="nw")
 
+# Saving Logic
+
+if data == "1":
+    upvar.set("\n Primitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine")
+if data == "2":
+    upvar.set(upvar.get()+"\n Primitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine\n Proto Hawk\n Vertex Engine")
+if data == "3":
+    upvar.set(upvar.get()+"\n Primitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine\n Proto Hawk\n Vertex Engine\nStar-13\nStar-13A\nRCS (Of all kinds)\nStar-13B\nStar-13E\nConventional Fuel Tank\nWoodstar Veierner Engine")
+
 def startnode():
     nodename.config(text="Start Node")
     nodeunlockedparts.config(text="Parts:\n Primitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine", font=("Segoe UI", 18, "bold"))
     nodecost.config(text="Cost: 0")
     def unlock():
-        if "\nPrimitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine" not in upvar.get():
-            upvar.set(upvar.get() + "\nPrimitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine")
+        nodetext = "\nPrimitive Conventional Fuel Tank\n Procedural Avionics\n Oriole Engine\n Kestral Engine"
+        if nodetext.strip() not in upvar.get().strip():
+            upvar.set(upvar.get() + nodetext)
+            with open("milestones.txt", "r+") as f:
+                f.seek(0)
+                current = f.read().strip()
+                if current != "1":
+                    f.seek(0)
+                    f.truncate()
+                    f.write("1")
             basicrocketrybtn = tk.Button(frame1, bg=bg2val.get(), fg=fgval.get(), font=("Segoe UI", 20, "bold"), text="Basic Rocketry", command=basicrocketry)
             basicrocketrybtn.place(x=150, y=335)
         else:
@@ -106,6 +113,8 @@ def startnode():
                 title="Node already unlocked",
                 message="You already unlocked this node"
             )
+            basicrocketrybtn = tk.Button(frame1, bg=bg2val.get(), fg=fgval.get(), font=("Segoe UI", 20, "bold"), text="Basic Rocketry", command=basicrocketry)
+            basicrocketrybtn.place(x=150, y=335)
     nodeunlockbtn.config(command=unlock)
     def basicrocketry():
         nodename.config(text="Basic Rocketry")
@@ -122,8 +131,16 @@ def startnode():
                 researchpoints += 15
             else:
                 rplabel.config(text=f"Research Points: {researchpoints}")
-                if "\n Proto Hawk\n Vertex Engine" not in upvar.get():
-                    upvar.set(upvar.get()+"\n Proto Hawk\n Vertex Engine")
+                nodetext = "\n Proto Hawk\n Vertex Engine"
+                if nodetext.strip() not in upvar.get().strip():
+                    upvar.set(upvar.get()+nodetext)
+                    with open("milestones.txt", "r+") as f:
+                        f.seek(0)
+                        current = f.read().strip()
+                        if current != 1:
+                            f.seek(0)
+                            f.truncate()
+                            f.write("2")
                     orbitalmaterialsbtn = tk.Button(frame1, bg=bg2val.get(), fg=fgval.get(), font=("Segoe UI", 20, "bold"), text="Orbital Materials", command=orbitalmaterials)
                     orbitalmaterialsbtn.place(x=400, y=335)
                 else:
@@ -133,6 +150,8 @@ def startnode():
                         title="Node already unlocked",
                         message="You already unlocked this node"
                     )
+                    orbitalmaterialsbtn = tk.Button(frame1, bg=bg2val.get(), fg=fgval.get(), font=("Segoe UI", 20, "bold"), text="Orbital Materials", command=orbitalmaterials)
+                    orbitalmaterialsbtn.place(x=400, y=335)
         nodeunlockbtn.config(command=unlock)
         def orbitalmaterials():
             nodename.config(text="Orbital Materials")
@@ -149,8 +168,16 @@ def startnode():
                     )
                 else:
                     rplabel.config(text=f"Research Points: {researchpoints}")
-                    if "\nStar-13\nStar-13A\nRCS (Of all kinds)\nStar-13B\nStar-13E\nConventional Fuel Tank\nWoodstar Veierner Engine" not in upvar.get():
-                        upvar.set(upvar.get()+"\nStar-13\nStar-13A\nRCS (Of all kinds)\nStar-13B\nStar-13E\nConventional Fuel Tank\nWoodstar Veierner Engine")
+                    nodetext = "\nStar-13\nStar-13A\nRCS (Of all kinds)\nStar-13B\nStar-13E\nConventional Fuel Tank\nWoodstar Veierner Engine"
+                    if nodetext.strip() not in upvar.get().strip():
+                        with open("milestones.txt", "r+") as f:
+                            f.seek(0)
+                            current = f.read().strip()
+                            if current != "3":
+                                f.seek(0)
+                                f.truncate()
+                                f.write("3")
+                        upvar.set(upvar.get()+nodetext)
                     else:
                         researchpoints += 45
                         rplabel.config(text=f"Research Points: {researchpoints}")
