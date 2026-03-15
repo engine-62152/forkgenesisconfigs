@@ -16,3 +16,4 @@ AAC Engines Mod
 Sam's Miscellaneous                
 Kiwi Main Engines (No use of antimatter engines, v1.4 UPDATE NEEDED)              
 New Dawn Parts
+OTS-Star Motors
