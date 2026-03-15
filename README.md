@@ -26,7 +26,8 @@ Season configs: [SFS 1.6 Roleplay Configs](https://github.com/RoshanGamer7791/SF
 The Interplanetary Coordination & Standards Authority (ICSA) is a organization that defines new zones and standards, not a actual agency.
 
 **Orbit Zones**
-* Low earth orbit: 30-140km
-* Mid earth orbit: 140-300km
-* High earth orbit: 300-earth SOIkm
-* GEO: 1000km
+* Very low earth orbit: 100-160km
+* Low earth orbit: 160-2042km
+* Mid earth orbit: 2042-35786km
+* High earth orbit: >35786 km
+* GEO: 35786km
