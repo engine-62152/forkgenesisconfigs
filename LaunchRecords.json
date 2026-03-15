@@ -111,6 +111,14 @@
         {
           "event": "Explorer-7, heaviest spacecraft yet (20t to LEO)",
           "who": "Untitled Aerospace"
+        },
+        {
+          "event": "U-2, failed missle launch",
+          "who": "Red Cosmos"
+        },
+        {
+          "event": "Leaper 3, first craft to escape from Earth's SOI",
+          "who": "Aerospace Pioneers Association"
         }
     ]
 }
