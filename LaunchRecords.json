@@ -67,6 +67,18 @@
         {
           "event": "Leaper 1, first satellite to reach geostationary orbit altitude",
           "who": "Aerospace Pioneers Association"
+        },
+        {
+          "event": "Jaguar 5",
+          "who": "Bluestar Aerospace"
+        },
+        {
+          "event": "Explorer 5",
+          "who": "Untitled Aerospace"
+        },
+        {
+          "event": "Leaper 2, first satellite to reach geostationary orbit",
+          "who": "Aerospace Pioneers Association"
         }
     ]
 }
