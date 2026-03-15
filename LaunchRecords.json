@@ -59,6 +59,10 @@
         {
           "event": "Jaguar 3 orbital mission",
           "who": "Bluestar Aerospace"
-        }
+        },
+        {
+          "event": "Progress-1 | First manned mission",
+          "who": "Nuclide Technologies"
+        },
     ]
 }
