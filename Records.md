@@ -23,7 +23,7 @@ Flyby: Not done yet
 Orbit: Not done yet
 
 #### Uncrewed:
-Flyby: Lunon 2 - Aerospace Pioneers Association - 1956       
+Flyby: Lunon 2 - Aerospace Pioneers Association - 1957       
 Orbit: Not done yet
 
 #### Advanced:
