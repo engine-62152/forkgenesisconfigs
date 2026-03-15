@@ -69,8 +69,10 @@
           "who": "Bluestar Aerospace"
         },
         {
-          "event": "Progress-1 | First manned mission",
-          "who": "Nuclide Technologies"
+        },
+          "event": "U-1 Suborbital missile launch",
+          "who": "Red Cosmos"
+        {
         },
         {
           "event": "Jaguar 4 Launch",
@@ -118,6 +120,10 @@
         },
         {
           "event": "Leaper 3, first craft to escape from Earth's SOI",
+          "who": "Aerospace Pioneers Association"
+        },
+        {
+          "event": "U-2, intercontinental ballistic missile crashes near the united states",
           "who": "Aerospace Pioneers Association"
         },
         {
