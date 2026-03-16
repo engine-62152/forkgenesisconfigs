@@ -179,6 +179,10 @@
         {
           "event": "Lunon 5 | Lunar orbiter",
           "who": "Aerospace Pioneers Association"
-        }
+        },
+        {
+          "event": "Explorer 12 | First lunar lander",
+          "who": "Untitled Aerospace"
+        },
     ]
 }
