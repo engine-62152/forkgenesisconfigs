@@ -135,6 +135,10 @@
         {
           "event": "Colonizer 3 | First orbital manned flight",
           "who": "Bluestar Aerospace"
+        },
+        {
+          "event": "Spear 1 | Second lunar flyby",
+          "who": "Nuclide Technologies"
         }
     ]
 }
