@@ -143,6 +143,10 @@
         {
           "event": "Explorer-8 | Failed and classified purpose",
           "who": "Untitled Aerospace"
+        },
+        {
+          "event": "Spear 2 | Second craft to escape from earth's SOI",
+          "who": "Nuclide Technologies"
         }
     ]
 }
