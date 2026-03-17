@@ -195,6 +195,14 @@
         {
           "event": "Jaguar 7 | Lunar flyby and earth SOI escape",
           "who": "Bluestar Aerospace"
+        },
+        {
+          "event": "Testifier 1 | Failed satellite deployment attempt",
+          "who": "Aerospace Pioneers Association"
+        },
+        {
+          "event": "Testifier 2 | Satellite deployment mission; payload mass record for APA",
+          "who": "Aerospace Pioneers Association"
         }
     ]
 }
