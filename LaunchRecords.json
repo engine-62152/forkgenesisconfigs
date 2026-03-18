@@ -219,6 +219,14 @@
         {
           "event": "Orbital 6 | Second satellite in GEO",
           "who": "Nuclide Technologies"
+        },
+        {
+          "event": "GEOSAT 1 | GEO comms satellite",
+          "who": "Aerospace Pioneers Association"
+        },
+        {
+          "event": "Arbiter 4 | First attempted Venus landing",
+          "who": "Aerospace Pioneers Association"
         }
     ]
 }
