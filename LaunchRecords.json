@@ -239,6 +239,10 @@
         {
             "event": "Explorer 15 | Failed booster recovery test",
             "who": "Untitled Aerospace"
+        },
+        {
+            "event": "Venturer 1 | First manned suborbital flight from the APA",
+            "who": "Aerospace Pioneers Association"
         }
     ]
 }
