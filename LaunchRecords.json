@@ -215,6 +215,10 @@
         {
           "event": "Arbiter 3 | First Mars flyby",
           "who": "Aerospace Pioneers Association"
+        },
+        {
+          "event": "Orbital 6 | Second satellite in GEO",
+          "who": "Nuclide Technologies"
         }
     ]
 }
