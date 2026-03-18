@@ -227,6 +227,10 @@
         {
           "event": "Arbiter 4 | First attempted Venus landing",
           "who": "Aerospace Pioneers Association"
+        },
+        {
+          "event": "BBR-003 Test | Payload mass world record",
+          "who": "Aerospace Pioneers Association"
         }
     ]
 }
