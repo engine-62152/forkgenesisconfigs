@@ -1,9 +1,3 @@
 {
-    "Relations": [
-        {
-            "name": "Test Relation",
-            "what": "Testing the uploader",
-            "who": "Test Agency, Test Agency 2"
-        }
-    ]
+    "Relations": []
 }
