@@ -1,10 +1,6 @@
 {
     "Launch_Records": [
         {
-            "event": "First launch in the RP",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Second launch in the RP",
             "who": "Bluestar Aerospace"
         },
@@ -41,14 +37,6 @@
             "who": "Roshan Aerospace and Space Agency"
         },
         {
-            "event": "Skyman 3, first orbital rocket for the APA and first (attempted) orbital recovery",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Skyman 4, first recovery of an orbital satellite",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Jaguar 2 5000km downrange",
             "who": "Bluestar Aerospace"
         },
@@ -81,28 +69,12 @@
             "who": "Bluestar Aerospace"
         },
         {
-            "event": "Leaper 1, first satellite to reach geostationary orbit altitude",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Jaguar 5 Launch",
             "who": "Bluestar Aerospace"
         },
         {
             "event": "Explorer 5",
             "who": "Untitled Aerospace"
-        },
-        {
-            "event": "Leaper 2, first satellite to reach geostationary orbit",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Lunon 1, first lunar fly-by attempt and first fully failed mission of the APA",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Lunon 2, first ever lunar fly-by",
-            "who": "Aerospace Pioneers Association"
         },
         {
             "event": "Colonizer 1 | Second manned flight",
@@ -119,10 +91,6 @@
         {
             "event": "U-2, failed missile launch",
             "who": "Red Cosmos"
-        },
-        {
-            "event": "Leaper 3, first craft to escape from Earth's SOI",
-            "who": "Aerospace Pioneers Association"
         },
         {
             "event": "U-2, intercontinental ballistic missile crashes near the united states",
@@ -157,10 +125,6 @@
             "who": "Untitled Aerospace"
         },
         {
-            "event": "Lunon 3 | First lunar impactor",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Pike 1",
             "who": "Bluestar Aerospace"
         },
@@ -173,36 +137,12 @@
             "who": "Bluestar Aerospace"
         },
         {
-            "event": "Lunon 4 | Failed lunar orbiter",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Lunon 5 | Lunar orbiter",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Explorer 12 | First lunar lander",
             "who": "Untitled Aerospace"
         },
         {
-            "event": "Arbiter 1 | First attempted Venus flyby",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Arbiter 2 | First Venus flyby",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Jaguar 7 | Lunar flyby and earth SOI escape",
             "who": "Bluestar Aerospace"
-        },
-        {
-            "event": "Testifier 1 | Failed satellite deployment attempt",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Testifier 2 | Satellite deployment mission",
-            "who": "Aerospace Pioneers Association"
         },
         {
             "event": "Explorer 13 | Earth SOI escape",
@@ -213,24 +153,8 @@
             "who": "Nuclide Technologies"
         },
         {
-            "event": "Arbiter 3 | First Mars flyby",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
             "event": "Orbital 6 | Second satellite in GEO | Payload mass record (42t in GTO)",
             "who": "Nuclide Technologies"
-        },
-        {
-            "event": "GEOSAT 1 | GEO comms satellite",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "Arbiter 4 | First attempted Venus landing",
-            "who": "Aerospace Pioneers Association"
-        },
-        {
-            "event": "BBR-003 Test | Payload mass record for APA",
-            "who": "Aerospace Pioneers Association"
         },
         {
             "event": "Explorer 14 | Crewed orbital mission, first spacewalk",
@@ -239,10 +163,6 @@
         {
             "event": "Explorer 15 | Failed booster recovery test",
             "who": "Untitled Aerospace"
-        },
-        {
-            "event": "Venturer 1 | First manned suborbital flight from the APA",
-            "who": "Aerospace Pioneers Association"
         },
         {
             "event": "Panther 1 | 20 tons into earth orbit + first 24 hour crew mission",
