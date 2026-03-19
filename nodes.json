@@ -1,3 +1,10 @@
 {
-    "nodes": []
+    "nodes": [
+        {
+            "name": "Start",
+            "partsunlocked": "Avionics, Sputnik Core, All SRBs, Basic Parts",
+            "requirements": "None",
+            "teir": "0"
+        }
+    ]
 }
