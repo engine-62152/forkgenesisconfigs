@@ -157,7 +157,7 @@
             "who": "Nuclide Technologies"
         },
         {
-            "event": "Explorer 14 | Crewed orbital mission, first spacewalk",
+            "event": "Explorer 14 | Crewed orbital mission",
             "who": "Untitled Aerospace"
         },
         {
@@ -171,6 +171,10 @@
         {
             "event": "Jaguar 8 | First crewed lunar flyby",
             "who": "Bluestar Aerospace"
+        },
+        {
+            "event": "Progress-2 | Orbital manned mission",
+            "who": "Nuclide Technologies"
         }
     ]
 }
